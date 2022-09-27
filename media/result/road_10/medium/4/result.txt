@@ -1,0 +1,111 @@
+*** 2022-09-22 17:37:56 ***
+
+Traffic Status: Medium
+Number of cars: 13
+Flow density: 41% 
+Flow average speed: 40
+Highest flow is in lane number: 2
+---------------------
+
+Vehicle Number: 1
+Vehicle Type: car
+Lane Number: 1
+Speed: 61.131
+Positions: 
+    frame[1]: [148, 389]
+    frame[2]: [156, 267]
+---------------------
+Vehicle Number: 2
+Vehicle Type: car
+Lane Number: 1
+Speed: 76.8196
+Positions: 
+    frame[1]: [108, 567]
+    frame[2]: [122, 414]
+---------------------
+Vehicle Number: 3
+Vehicle Type: car
+Lane Number: 1
+Speed: 0
+Positions: 
+    frame[1]: [168, 13]
+---------------------
+Vehicle Number: 4
+Vehicle Type: car
+Lane Number: 1
+Speed: 38.0821
+Positions: 
+    frame[1]: [147, 220]
+    frame[2]: [152, 144]
+---------------------
+Vehicle Number: 5
+Vehicle Type: car
+Lane Number: 2
+Speed: 41.7163
+Positions: 
+    frame[1]: [329, 269]
+    frame[2]: [309, 188]
+---------------------
+Vehicle Number: 6
+Vehicle Type: car
+Lane Number: 2
+Speed: 0
+Positions: 
+    frame[1]: [277, 24]
+---------------------
+Vehicle Number: 7
+Vehicle Type: car
+Lane Number: 2
+Speed: 23.1948
+Positions: 
+    frame[1]: [289, 127]
+    frame[2]: [283, 81]
+---------------------
+Vehicle Number: 8
+Vehicle Type: car
+Lane Number: 2
+Speed: 13.3135
+Positions: 
+    frame[1]: [230, 50]
+    frame[2]: [245, 28]
+---------------------
+Vehicle Number: 9
+Vehicle Type: car
+Lane Number: 2
+Speed: 63.6396
+Positions: 
+    frame[1]: [340, 453]
+    frame[2]: [322, 327]
+---------------------
+Vehicle Number: 10
+Vehicle Type: car
+Lane Number: 3
+Speed: 8.38153
+Positions: 
+    frame[1]: [379, 23]
+    frame[2]: [395, 18]
+---------------------
+Vehicle Number: 11
+Vehicle Type: car
+Lane Number: 3
+Speed: 25.9422
+Positions: 
+    frame[1]: [442, 129]
+    frame[2]: [418, 83]
+---------------------
+Vehicle Number: 12
+Vehicle Type: car
+Lane Number: 3
+Speed: 68.0827
+Positions: 
+    frame[1]: [556, 404]
+    frame[2]: [502, 279]
+---------------------
+Vehicle Number: 13
+Vehicle Type: motorcycle
+Lane Number: 3
+Speed: 27.0416
+Positions: 
+    frame[1]: [410, 38]
+    frame[2]: [365, 8]
+---------------------

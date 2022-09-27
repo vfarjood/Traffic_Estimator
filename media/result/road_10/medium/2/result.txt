@@ -1,0 +1,110 @@
+*** 2022-09-22 17:35:37 ***
+
+Traffic Status: Medium
+Number of cars: 13
+Flow density: 37% 
+Flow average speed: 40
+Highest flow is in lane number: 1
+---------------------
+
+Vehicle Number: 1
+Vehicle Type: car
+Lane Number: 1
+Speed: 36.9121
+Positions: 
+    frame[1]: [156, 269]
+    frame[2]: [167, 196]
+---------------------
+Vehicle Number: 2
+Vehicle Type: car
+Lane Number: 1
+Speed: 16.568
+Positions: 
+    frame[1]: [156, 51]
+    frame[2]: [159, 18]
+---------------------
+Vehicle Number: 3
+Vehicle Type: car
+Lane Number: 1
+Speed: 0
+Positions: 
+    frame[1]: [161, 10]
+---------------------
+Vehicle Number: 4
+Vehicle Type: car
+Lane Number: 1
+Speed: 25
+Positions: 
+    frame[1]: [163, 131]
+    frame[2]: [163, 81]
+---------------------
+Vehicle Number: 5
+Vehicle Type: car
+Lane Number: 1
+Speed: 0
+Positions: 
+    frame[1]: [140, 599]
+---------------------
+Vehicle Number: 6
+Vehicle Type: car
+Lane Number: 2
+Speed: 41.5933
+Positions: 
+    frame[1]: [319, 233]
+    frame[2]: [305, 151]
+---------------------
+Vehicle Number: 7
+Vehicle Type: car
+Lane Number: 2
+Speed: 0
+Positions: 
+    frame[1]: [275, 21]
+---------------------
+Vehicle Number: 8
+Vehicle Type: truck
+Lane Number: 2
+Speed: 83.4521
+Positions: 
+    frame[1]: [357, 546]
+    frame[2]: [326, 382]
+---------------------
+Vehicle Number: 9
+Vehicle Type: car
+Lane Number: 2
+Speed: 26.4764
+Positions: 
+    frame[1]: [296, 101]
+    frame[2]: [286, 49]
+---------------------
+Vehicle Number: 10
+Vehicle Type: car
+Lane Number: 3
+Speed: 8.90225
+Positions: 
+    frame[1]: [379, 25]
+    frame[2]: [368, 11]
+---------------------
+Vehicle Number: 11
+Vehicle Type: car
+Lane Number: 3
+Speed: 77.8781
+Positions: 
+    frame[1]: [600, 576]
+    frame[2]: [566, 424]
+---------------------
+Vehicle Number: 12
+Vehicle Type: motorcycle
+Lane Number: 3
+Speed: 51.8097
+Positions: 
+    frame[1]: [517, 303]
+    frame[2]: [478, 207]
+---------------------
+Vehicle Number: 13
+Vehicle Type: car
+Lane Number: 3
+Speed: 33.1549
+Positions: 
+    frame[1]: [448, 187]
+    frame[2]: [422, 126]
+---------------------

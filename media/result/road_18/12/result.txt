@@ -1,0 +1,104 @@
+*** 2022-09-25 17:14:01 ***
+
+Traffic Status: High
+    -Number of detected vehicles: 22
+    -Number of tracked vehicles: 12
+    -Flow density: 66% 
+    -Flow average speed: 23
+    -Highest flow is in lane number: 1
+---------------------
+
+Vehicle Number: 1
+Vehicle Type: truck
+Lane Number: 1
+Speed: 34.5036
+Positions: 
+    frame[1]: [228, 351]
+    frame[2]: [229, 282]
+---------------------
+Vehicle Number: 2
+Vehicle Type: car
+Lane Number: 1
+Speed: 21.5928
+Positions: 
+    frame[1]: [250, 522]
+    frame[2]: [254, 479]
+---------------------
+Vehicle Number: 3
+Vehicle Type: car
+Lane Number: 1
+Speed: 76.5376
+Positions: 
+    frame[1]: [228, 245]
+    frame[2]: [182, 99]
+---------------------
+Vehicle Number: 4
+Vehicle Type: car
+Lane Number: 1
+Speed: 0
+Positions: 
+    frame[1]: [220, 207]
+---------------------
+Vehicle Number: 5
+Vehicle Type: car
+Lane Number: 1
+Speed: 14.5602
+Positions: 
+    frame[1]: [210, 180]
+    frame[2]: [202, 152]
+---------------------
+Vehicle Number: 6
+Vehicle Type: car
+Lane Number: 1
+Speed: 14.0089
+Positions: 
+    frame[1]: [223, 616]
+    frame[2]: [224, 588]
+---------------------
+Vehicle Number: 7
+Vehicle Type: car
+Lane Number: 2
+Speed: 15.6525
+Positions: 
+    frame[1]: [301, 133]
+    frame[2]: [287, 105]
+---------------------
+Vehicle Number: 8
+Vehicle Type: car
+Lane Number: 2
+Speed: 23.5372
+Positions: 
+    frame[1]: [423, 539]
+    frame[2]: [433, 585]
+---------------------
+Vehicle Number: 9
+Vehicle Type: truck
+Lane Number: 2
+Speed: 11.8849
+Positions: 
+    frame[1]: [342, 186]
+    frame[2]: [336, 163]
+---------------------
+Vehicle Number: 10
+Vehicle Type: car
+Lane Number: 2
+Speed: 12.3693
+Positions: 
+    frame[1]: [372, 306]
+    frame[2]: [366, 282]
+---------------------
+Vehicle Number: 11
+Vehicle Type: car
+Lane Number: 2
+Speed: 14.7054
+Positions: 
+    frame[1]: [394, 397]
+    frame[2]: [385, 369]
+---------------------
+Vehicle Number: 12
+Vehicle Type: truck
+Lane Number: 2
+Speed: 0
+Positions: 
+    frame[1]: [418, 514]
+---------------------

@@ -1,0 +1,8 @@
+Detection:
+24
+
+Tracking:
+13
+
+Estimation:
+2

@@ -1,0 +1,105 @@
+*** 2022-09-25 15:46:29 ***
+
+Traffic Status: High
+    -Number of detected vehicles: 23
+    -Number of tracked vehicles: 12
+    -Flow density: 64% 
+    -Flow average speed: 6
+    -Highest flow is in lane number: 2
+---------------------
+
+Vehicle Number: 1
+Vehicle Type: bus
+Lane Number: 1
+Speed: 8.90225
+Positions: 
+    frame[1]: [246, 108]
+    frame[2]: [257, 94]
+---------------------
+Vehicle Number: 2
+Vehicle Type: car
+Lane Number: 1
+Speed: 12.9035
+Positions: 
+    frame[1]: [67, 419]
+    frame[2]: [82, 398]
+---------------------
+Vehicle Number: 3
+Vehicle Type: car
+Lane Number: 1
+Speed: 12.2066
+Positions: 
+    frame[1]: [170, 261]
+    frame[2]: [184, 241]
+---------------------
+Vehicle Number: 4
+Vehicle Type: car
+Lane Number: 2
+Speed: 0
+Positions: 
+    frame[1]: [296, 90]
+---------------------
+Vehicle Number: 5
+Vehicle Type: car
+Lane Number: 2
+Speed: 6.5
+Positions: 
+    frame[1]: [185, 396]
+    frame[2]: [190, 384]
+---------------------
+Vehicle Number: 6
+Vehicle Type: car
+Lane Number: 2
+Speed: 6.04152
+Positions: 
+    frame[1]: [247, 235]
+    frame[2]: [252, 224]
+---------------------
+Vehicle Number: 7
+Vehicle Type: truck
+Lane Number: 2
+Speed: 2.23607
+Positions: 
+    frame[1]: [286, 135]
+    frame[2]: [288, 131]
+---------------------
+Vehicle Number: 8
+Vehicle Type: car
+Lane Number: 2
+Speed: 4.272
+Positions: 
+    frame[1]: [84, 603]
+    frame[2]: [81, 595]
+---------------------
+Vehicle Number: 9
+Vehicle Type: car
+Lane Number: 3
+Speed: 7.15891
+Positions: 
+    frame[1]: [332, 132]
+    frame[2]: [335, 118]
+---------------------
+Vehicle Number: 10
+Vehicle Type: car
+Lane Number: 3
+Speed: 1.5
+Positions: 
+    frame[1]: [284, 383]
+    frame[2]: [284, 380]
+---------------------
+Vehicle Number: 11
+Vehicle Type: car
+Lane Number: 3
+Speed: 5.59017
+Positions: 
+    frame[1]: [316, 239]
+    frame[2]: [318, 228]
+---------------------
+Vehicle Number: 12
+Vehicle Type: motorcycle
+Lane Number: 3
+Speed: 3.64005
+Positions: 
+    frame[1]: [304, 158]
+    frame[2]: [306, 151]
+---------------------

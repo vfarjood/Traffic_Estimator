@@ -1,0 +1,108 @@
+*** 2022-09-25 10:17:24 ***
+
+Traffic Status: Medium
+    -Number of detected vehicles: 20
+    -Number of tracked vehicles: 13
+    -Flow density: 32% 
+    -Flow average speed: 32
+    -Highest flow is in lane number: 1
+---------------------
+
+Vehicle Number: 1
+Vehicle Type: car
+Lane Number: 1
+Speed: 0
+Positions: 
+    frame[1]: [272, 261]
+---------------------
+Vehicle Number: 2
+Vehicle Type: car
+Lane Number: 1
+Speed: 134.523
+Positions: 
+    frame[1]: [90, 551]
+    frame[2]: [221, 316]
+---------------------
+Vehicle Number: 3
+Vehicle Type: car
+Lane Number: 1
+Speed: 16.1012
+Positions: 
+    frame[1]: [236, 297]
+    frame[2]: [255, 271]
+---------------------
+Vehicle Number: 4
+Vehicle Type: car
+Lane Number: 1
+Speed: 15.5724
+Positions: 
+    frame[1]: [184, 365]
+    frame[2]: [181, 396]
+---------------------
+Vehicle Number: 5
+Vehicle Type: car
+Lane Number: 2
+Speed: 0
+Positions: 
+    frame[1]: [142, 593]
+---------------------
+Vehicle Number: 6
+Vehicle Type: car
+Lane Number: 2
+Speed: 8.544
+Positions: 
+    frame[1]: [245, 444]
+    frame[2]: [229, 438]
+---------------------
+Vehicle Number: 7
+Vehicle Type: car
+Lane Number: 2
+Speed: 0
+Positions: 
+    frame[1]: [276, 306]
+---------------------
+Vehicle Number: 8
+Vehicle Type: car
+Lane Number: 2
+Speed: 3.3541
+Positions: 
+    frame[1]: [281, 278]
+    frame[2]: [287, 275]
+---------------------
+Vehicle Number: 9
+Vehicle Type: car
+Lane Number: 3
+Speed: 0
+Positions: 
+    frame[1]: [330, 263]
+---------------------
+Vehicle Number: 10
+Vehicle Type: car
+Lane Number: 3
+Speed: 0
+Positions: 
+    frame[1]: [297, 505]
+---------------------
+Vehicle Number: 11
+Vehicle Type: car
+Lane Number: 4
+Speed: 10.198
+Positions: 
+    frame[1]: [352, 290]
+    frame[2]: [348, 270]
+---------------------
+Vehicle Number: 12
+Vehicle Type: car
+Lane Number: 4
+Speed: 0
+Positions: 
+    frame[1]: [400, 519]
+---------------------
+Vehicle Number: 13
+Vehicle Type: car
+Lane Number: 5
+Speed: 36.4486
+Positions: 
+    frame[1]: [440, 387]
+    frame[2]: [407, 322]
+---------------------

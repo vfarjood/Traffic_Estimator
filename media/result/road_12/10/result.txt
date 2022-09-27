@@ -1,0 +1,70 @@
+*** 2022-09-25 00:16:27 ***
+
+Traffic Status: Low
+    -Number of detected vehicles: 12
+    -Number of tracked vehicles: 8
+    -Flow density: 16% 
+    -Flow average speed: 49
+    -Highest flow is in lane number: 1
+---------------------
+
+Vehicle Number: 1
+Vehicle Type: car
+Lane Number: 1
+Speed: 0
+Positions: 
+    frame[1]: [222, 58]
+---------------------
+Vehicle Number: 2
+Vehicle Type: car
+Lane Number: 1
+Speed: 0
+Positions: 
+    frame[1]: [249, 9]
+---------------------
+Vehicle Number: 3
+Vehicle Type: car
+Lane Number: 1
+Speed: 107.231
+Positions: 
+    frame[1]: [156, 288]
+    frame[2]: [219, 83]
+---------------------
+Vehicle Number: 4
+Vehicle Type: car
+Lane Number: 1
+Speed: 0
+Positions: 
+    frame[1]: [73, 420]
+---------------------
+Vehicle Number: 5
+Vehicle Type: car
+Lane Number: 2
+Speed: 6.18466
+Positions: 
+    frame[1]: [292, 29]
+    frame[2]: [289, 17]
+---------------------
+Vehicle Number: 6
+Vehicle Type: car
+Lane Number: 2
+Speed: 29.6816
+Positions: 
+    frame[1]: [279, 100]
+    frame[2]: [311, 50]
+---------------------
+Vehicle Number: 7
+Vehicle Type: car
+Lane Number: 2
+Speed: 0
+Positions: 
+    frame[1]: [236, 447]
+---------------------
+Vehicle Number: 8
+Vehicle Type: car
+Lane Number: 3
+Speed: 53.2846
+Positions: 
+    frame[1]: [361, 132]
+    frame[2]: [350, 26]
+---------------------

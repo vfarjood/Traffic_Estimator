@@ -1,0 +1,105 @@
+*** 2022-09-25 17:12:53 ***
+
+Traffic Status: High
+    -Number of detected vehicles: 23
+    -Number of tracked vehicles: 12
+    -Flow density: 57% 
+    -Flow average speed: 16
+    -Highest flow is in lane number: 1
+---------------------
+
+Vehicle Number: 1
+Vehicle Type: car
+Lane Number: 1
+Speed: 39.3224
+Positions: 
+    frame[1]: [292, 472]
+    frame[2]: [240, 413]
+---------------------
+Vehicle Number: 2
+Vehicle Type: car
+Lane Number: 1
+Speed: 13.4629
+Positions: 
+    frame[1]: [237, 589]
+    frame[2]: [244, 563]
+---------------------
+Vehicle Number: 3
+Vehicle Type: car
+Lane Number: 1
+Speed: 12.9808
+Positions: 
+    frame[1]: [176, 119]
+    frame[2]: [169, 94]
+---------------------
+Vehicle Number: 4
+Vehicle Type: car
+Lane Number: 1
+Speed: 18.0693
+Positions: 
+    frame[1]: [239, 309]
+    frame[2]: [230, 274]
+---------------------
+Vehicle Number: 5
+Vehicle Type: car
+Lane Number: 1
+Speed: 16.1941
+Positions: 
+    frame[1]: [224, 235]
+    frame[2]: [219, 203]
+---------------------
+Vehicle Number: 6
+Vehicle Type: car
+Lane Number: 1
+Speed: 13.3417
+Positions: 
+    frame[1]: [207, 173]
+    frame[2]: [201, 147]
+---------------------
+Vehicle Number: 7
+Vehicle Type: truck
+Lane Number: 2
+Speed: 12.2577
+Positions: 
+    frame[1]: [353, 237]
+    frame[2]: [348, 213]
+---------------------
+Vehicle Number: 8
+Vehicle Type: car
+Lane Number: 2
+Speed: 17.5855
+Positions: 
+    frame[1]: [409, 462]
+    frame[2]: [400, 428]
+---------------------
+Vehicle Number: 9
+Vehicle Type: truck
+Lane Number: 2
+Speed: 12.5
+Positions: 
+    frame[1]: [436, 584]
+    frame[2]: [429, 560]
+---------------------
+Vehicle Number: 10
+Vehicle Type: car
+Lane Number: 2
+Speed: 14.8661
+Positions: 
+    frame[1]: [393, 372]
+    frame[2]: [383, 344]
+---------------------
+Vehicle Number: 11
+Vehicle Type: car
+Lane Number: 2
+Speed: 14.089
+Positions: 
+    frame[1]: [297, 124]
+    frame[2]: [284, 99]
+---------------------
+Vehicle Number: 12
+Vehicle Type: car
+Lane Number: 2
+Speed: 0
+Positions: 
+    frame[1]: [253, 81]
+---------------------
