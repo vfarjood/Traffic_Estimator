@@ -52,7 +52,7 @@ private:
   bool do_show_bar{true};
   bool update_is_called{false};
 
-  std::string done_char{"\033[90m█\033[0m"};
+  std::string done_char{"\033[32m█\033[0m"};
   std::string todo_char{" "};
   std::string opening_bracket_char{"["};
   std::string closing_bracket_char{"]"};
