@@ -9,7 +9,7 @@
 //                                                                           //
 //***************************************************************************//
 
-#include <Config.h>
+#include <config.h>
 #include <iostream>
 #include <vector>
 #include <map>

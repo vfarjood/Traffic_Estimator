@@ -16,7 +16,7 @@ void evaluate(Parameters& param, const int image_width, const int image_height){
         if(road_directory.path() == param.data_path + ".DS_Store" ){
             continue;
         }
-        std::vector<fs::path> samples_dir;
+        std::vector<std::filesystem::path> samples_dir;
         for (auto const& samples_directory : std::filesystem::directory_iterator{road_directory.path()}){
             if(samples_directory.path() == road_directory.path()/".DS_Store" ){
                 continue;

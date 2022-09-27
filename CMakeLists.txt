@@ -17,7 +17,7 @@ file(GLOB PROJECT_SRCS  src/main.cpp
 file(GLOB PROJECT_SRC_EVAL src/evaluate/Evaluate.cpp)
 
 if(APPLE)
-    message(STATUS "Apple")
+    message(STATUS "Platform: Apple")
     set(SUPPORT_EVAL true)
     add_executable(estimator ${PROJECT_SRCS} ${PROJECT_SRC_EVAL})
     find_package(OpenCV REQUIRED)
@@ -26,7 +26,7 @@ if(APPLE)
 endif()
 
 if(LINUX)
-    message(STATUS "Linux")
+    message(STATUS "Platform: Linux")
     set(SUPPORT_EVAL true)
     add_executable(estimator ${PROJECT_SRCS} ${PROJECT_SRC_EVAL})
     find_package(OpenCV REQUIRED)
@@ -59,5 +59,6 @@ if(CMAKE_SYSTEM_PROCESSOR MATCHES "arm")
 endif()
 
 #Configure file for version
-configure_file(Config.h.in Config.h)
+configure_file(Config.h.in ${CMAKE_BINARY_DIR}/config.h)
+include_directories(${CMAKE_BINARY_DIR})
 
