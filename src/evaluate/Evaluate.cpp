@@ -158,7 +158,7 @@ void evaluate(Parameters& param, const int image_width, const int image_height){
             estimation_mismatch_type.push_back(std::make_pair(labels[i][2], predictions[i][2]));
         }
     }
-    std::cout << "\nCompleted!" << std::endl;
+    std::cout << "  Completed!" << std::endl;
     std::cout << "Computed time for \e[1m" << labels.size() << "\e[0m samples: "<< eval_time.stop() << "s\n";
 
 
