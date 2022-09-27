@@ -25,7 +25,7 @@ if(APPLE)
     target_link_libraries(estimator  ${OpenCV_LIBS})
 endif()
 
-if(LINUX)
+if(CMAKE_SYSTEM_PROCESSOR MATCHES Linux)
     message(STATUS "Platform: Linux")
     set(SUPPORT_EVAL true)
     add_executable(estimator ${PROJECT_SRCS} ${PROJECT_SRC_EVAL})
