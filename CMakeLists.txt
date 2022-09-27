@@ -16,46 +16,49 @@ file(GLOB PROJECT_SRCS  src/main.cpp
 
 file(GLOB PROJECT_SRC_EVAL src/evaluate/Evaluate.cpp)
 
-if(APPLE)
-    message(STATUS "Platform: Apple")
-    set(SUPPORT_EVAL true)
-    add_executable(estimator ${PROJECT_SRCS} ${PROJECT_SRC_EVAL})
-    find_package(OpenCV REQUIRED)
-    include_directories(${OpenCV_INCLUDE_DIRS})
-    target_link_libraries(estimator  ${OpenCV_LIBS})
-endif()
-
-if(CMAKE_SYSTEM_NAME MATCHES Linux)
-    message(STATUS "Platform: Linux")
-    set(SUPPORT_EVAL true)
-    add_executable(estimator ${PROJECT_SRCS} ${PROJECT_SRC_EVAL})
-    find_package(OpenCV REQUIRED)
-    include_directories(${OpenCV_INCLUDE_DIRS})
-    target_link_libraries(estimator  ${OpenCV_LIBS})
-endif()
-
 if(CMAKE_SYSTEM_PROCESSOR MATCHES "arm")
     message(STATUS "Platform: ARM")
     set(SUPPORT_EVAL false)
     add_executable(estimator ${PROJECT_SRCS})
+
     # add_subdirectory(lib/opencv)
     set(CMAKE_INSTALL_RPATH "${PROJECT_SOURCE_DIR}/lib/opencv-4/lib/")
     list(APPEND EXTRA_LIB_DIRS ${PROJECT_SOURCE_DIR}/lib/opencv-4/lib)
     list(APPEND EXTRA_INCLUDE_DIRS ${PROJECT_SOURCE_DIR}/lib/opencv-4/include/opencv4)
-    
     file(STRINGS ${PROJECT_SOURCE_DIR}/lib/opencv-4/lib/modules_name.txt modules)
     list(APPEND EXTRA_LINKS ${modules})
-    
+
     #Add INCLUDE directories of third-party libraries
     target_include_directories(${PROJECT_NAME} 
         PUBLIC ${PROJECT_BINARY_DIR}
         PUBLIC ${EXTRA_INCLUDE_DIRS} )
-    
     #Add LIB or SRC directories of third-party libraries
     target_link_directories(${PROJECT_NAME} PRIVATE ${EXTRA_LIB_DIRS})
     
     #Add the name of third-party libraries
     target_link_libraries(${PROJECT_NAME} ${EXTRA_LINKS})
+
+elseif(APPLE)
+    message(STATUS "Platform: Apple")
+    set(SUPPORT_EVAL true)
+    add_executable(estimator ${PROJECT_SRCS} ${PROJECT_SRC_EVAL})
+
+    find_package(OpenCV REQUIRED)
+    include_directories(${OpenCV_INCLUDE_DIRS})
+    target_link_libraries(estimator  ${OpenCV_LIBS})
+
+elseif(CMAKE_SYSTEM_NAME MATCHES Linux)
+    message(STATUS "Platform: Linux")
+    set(SUPPORT_EVAL true)
+    add_executable(estimator ${PROJECT_SRCS} ${PROJECT_SRC_EVAL})
+
+    find_package(OpenCV REQUIRED)
+    include_directories(${OpenCV_INCLUDE_DIRS})
+    target_link_libraries(estimator  ${OpenCV_LIBS})
+
+else()
+    message(STATUS "ERROR: Unknown platform!")
+
 endif()
 
 #Configure file for version
