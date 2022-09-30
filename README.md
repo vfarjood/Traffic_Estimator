@@ -29,7 +29,7 @@ Next, clone this repository in your local host:
 ```cpp
 git clone https://github.com/vfarjood/traffic_estimator.git
 ```
-Then you can use the script file to install the project:
+After that, you may install the project using the script file:
 ```cpp
 cd traffic_estimator
 cd scripts
@@ -39,12 +39,21 @@ cd scripts
 
 The only prerequisite is that your machine already includes the OpenCV library installed. After that, you just need to install the project:
 ```cpp
+% opencv_version
+ -4.5.5
+```
+Clone this repository in your local host:
+```cpp
+git clone https://github.com/vfarjood/traffic_estimator.git
+```
+After that, you may install the project using the script file:
+```cpp
 cd traffic_estimator
 cd scripts
 ./install.sh
 ```
 
-# Run
+# Usage
 
 An executable file will automatically be created in the same directory, scripts, after the project has been installed using the *install.sh* script. The simplest way of running the program is to type:
 ```cpp
