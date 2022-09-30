@@ -1,4 +1,4 @@
-![alt text](https://github.com/vfarjood/traffic_estimator/doc/Pipeline.jpg?raw=true)
+![alt text](https://github.com/vfarjood/traffic_estimator/doc/pipeline.jpeg?raw=true)
 
 
 # Introduction
