@@ -1,3 +1,6 @@
+![alt text](https://github.com/vfarjood/traffic_estimator/doc/Pipeline.jpg?raw=true)
+
+
 # Introduction
 
 In this work, I aim to predict the traffic flow conditions in order to identify queues and potential bottlenecks. I intend to accomplish that by employing a full harvesting device, and I need to use sub-sampling of the traffic flow in order to achieve this goal because we cannot use an acquisition device that runs continuously (2 images 1 sec sampling rate). We agree that there are roughly three levels of traffic conditions. Even though a more precise classification could be the next goal for future work, this is sufficient.
