@@ -7,7 +7,7 @@ In this work, I aim to predict the traffic flow conditions in order to identify 
 
 # Motivation
 
-So far, the Uield of trafUic estimation is governed mostly by RADAR, LIDARS, GPS, and section speed measurements, but those techniques are not able to provide semantic information and they are usually expensive. Conversely, nowadays cameras are cheap and with the help of Deep Learning and computer vision techniques we are able to extract many useful information from videos or images captured by those cameras such as type of the vehicle or estimating distance between vehicles.
+So far, the field of traffic estimation is governed mostly by RADAR, LIDARS, GPS, and section speed measurements, but those techniques are not able to provide semantic information and they are usually expensive. Conversely, nowadays cameras are cheap and with the help of Deep Learning and computer vision techniques we are able to extract many useful information from videos or images captured by those cameras such as type of the vehicle or estimating distance between vehicles.
 
 However, implementing Deep Learning models require a lot of resources and most projects have been tested on the servers in which there were enough GPUs and memories to run Deep Learning models. On the contrary, in this thesis we are interested in implementing Deep Learning models on small and cheap devices that are limited by the hardware and power supply and software dependencies/compatibilities.
 
