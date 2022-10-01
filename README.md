@@ -3,13 +3,14 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 - [Introduction](#introduction)
-- [License](https://github.com/vfarjood/traffic_estimator/blob/main/LICENSE.md)
 - [Motivation](#motivation)
 - [Platforms](#platforms)
 - [Installation](#installation)
   - [Build requirements for the Z2 board](#build-requirements-for-the-z2-board)
   - [Build requirements for MacOS or Linux](#build-requirements-for-macos-or-linux)
 - [Usage](#usage)
+- [License](#license)
+- [Documentation](#documentation)
 
 # Introduction
 
@@ -90,3 +91,12 @@ With *-e or --evalute* you can set the program into evaluation mode:
 ```cpp
 ./estimate -i=../media/dataset/ -d=yolo -e=true
 ```
+
+# License
+This repository has a MIT license and its free to clone and use it in your project.
+plese see more detail about the license at following address:
+- [license](https://github.com/vfarjood/traffic_estimator/blob/main/LICENSE.md)
+
+# Documentation
+There is a full report of my thesis in doc folder and you can find it at:
+- [report](https://github.com/vfarjood/traffic_estimator/tree/main/doc/Thesis_v3.pdf)
