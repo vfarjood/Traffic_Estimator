@@ -3,6 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 - [Introduction](#introduction)
+- [License](https://github.com/vfarjood/traffic_estimator/blob/main/LICENSE.md)
 - [Motivation](#motivation)
 - [Platforms](#platforms)
 - [Installation](#installation)
