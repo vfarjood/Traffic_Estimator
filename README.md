@@ -1,5 +1,14 @@
 ![alt text](https://github.com/vfarjood/traffic_estimator/blob/main/doc/pipeline.jpeg?raw=true)
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+- [Introduction](#introduction)
+- [Motivation](#motivation)
+- [Platforms](#platforms)
+- [Installation](#installation)
+  - [Build requirements for the Z2 board](#build-requirements-for-the-z2-board)
+  - [Build requirements for MacOS or Linux](#build-requirements-for-macos-or-linux)
+- [Usage](#usage)
 
 # Introduction
 
