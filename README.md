@@ -23,7 +23,8 @@ However, implementing Deep Learning models require a lot of resources and most p
 
 
 # Platforms
-Currently, this project is primarily developed for the Z2 board which has an ARM Cortex-A series processor, though it has also been tested on macOS and Linux desktop distributions such as Ubuntu and Debian. With a C++11-capable compiler, it should run on any of these. Before installing the project, you should pay attention to the list of prerequisites for the build system.
+Currently, this project is primarily developed for the Z2 board which has an ARM Cortex-A series processor, though it has also been tested on macOS and Linux desktop distributions such as Ubuntu and Debian. With a C++11-capable compiler, it should run on any of these. 
+Before installing the project, you should pay attention to the list of prerequisites for the build system.
 
 # Installation
 
