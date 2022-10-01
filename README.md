@@ -73,7 +73,7 @@ An executable file will automatically be created in the same directory, scripts,
 ```
 You can view all the possible arguments that you can use to modify the behavior of the program by passing *-h or —help*:
 ```cpp
-./estimate
+./estimate -h
 ```
 
 With *-d or --detector* you can choose object detection model( YOLOv5n, or MobileNet_SSDv2). by defult program uses Yolo model:
