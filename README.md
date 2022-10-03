@@ -6,8 +6,8 @@
 - [Motivation](#motivation)
 - [Platforms](#platforms)
 - [Installation](#installation)
-  - [Build requirements for the Z2 board](#build-requirements-for-the-z2-board)
-  - [Build requirements for MacOS or Linux](#build-requirements-for-macos-or-linux)
+  - [Requirements for the Z2 board](#requirements-for-the-z2-board)
+  - [Requirements for MacOS or Linux](#requirements-for-macos-or-linux)
 - [Usage](#usage)
 - [License](#license)
 - [Documentation](#documentation)
@@ -23,14 +23,27 @@ So far, the field of traffic estimation is governed mostly by RADAR, LIDARS, GPS
 However, implementing Deep Learning models require a lot of resources and most projects have been tested on the servers in which there were enough GPUs and memories to run Deep Learning models. On the contrary, in this thesis we are interested in implementing Deep Learning models on small and cheap devices that are limited by the hardware and power supply and software dependencies/compatibilities.
 
 
-
 # Platforms
 Currently, this project is primarily developed for the Z2 board which has an ARM Cortex-A series processor, though it has also been tested on macOS and Linux desktop distributions such as Ubuntu and Debian. With a C++11-capable compiler, it should run on any of these. 
 Before installing the project, you should pay attention to the list of prerequisites for the build system.
 
 # Installation
 
-### Build requirements for the Z2 board:
+### Requirements for the Z2 board:
+'Make' (buildsystem) and 'CMake' should already be installed (generator of buildsystems).
+```cpp
+cmake --version
+3.16.3
+```
+```cpp
+make --version
+4.2.1
+```
+Install it using the following if it hasn't already:
+```cpp
+sudo apt-get install cmake
+sudo apt-get install make
+```
 
 Make sure your Z2 board has all the required development libraries. If you don’t plan to use GTK+, ignore the first line from the next commands. Most of these libraries should be already installed if you are using a Z2 board or Raspberry Pi:
 ```cpp
@@ -50,9 +63,24 @@ cd traffic_estimator
 cd scripts
 ./install.sh
 ```
-### Build requirements for MacOS or Linux
+### Requirements for MacOS or Linux
 
-The only prerequisite is that your machine already includes the OpenCV library installed. After that, you just need to install the project:
+'Make' (buildsystem) and 'CMake' should already be installed (generator of buildsystems).
+```cpp
+cmake --version
+3.16.3
+```
+```cpp
+make --version
+4.2.1
+```
+Install it using the following if it hasn't already:
+```cpp
+sudo apt-get install cmake
+sudo apt-get install make
+```
+
+Your machine should already includes the OpenCV library installed. After that, you just need to install the project:
 ```cpp
 % opencv_version
  -4.5.5
