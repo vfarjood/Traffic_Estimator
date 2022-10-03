@@ -16,6 +16,7 @@
 #include "utils/Log.hpp"
 #include "utils/Timer.hpp"
 #include "utils/Lane.hpp"
+#include "utils/Capture.hpp"
 #include "utils/FileUtils.hpp"
 #include "entity/Result.hpp"
 #include "entity/Parameters.hpp"
@@ -61,6 +62,8 @@ int main(int argc, char** argv )
     }
     LOG_INFO("Main: Inferencing mode..");
     // load input image list:
+    capture();
+    return 0;
     std::vector<std::string> input_files= {(param.data_path + param.images[0]),
                                            (param.data_path + param.images[1])};
     // keep all detected vehicles in a vector for both images:
