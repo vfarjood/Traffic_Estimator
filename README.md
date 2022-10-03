@@ -120,7 +120,7 @@ With *-i or --input* you can pass input path to the program:
 ```cpp
 ./estimate -i=../media/dataset/road_1/1/
 ```
-With *-e or --evalute* you can set the program into evaluation mode:
+With *-e or --evaluate* you can set the program into evaluation mode:
 ```cpp
 ./estimate -i=../media/dataset/ -d=yolo -e=true
 ```
