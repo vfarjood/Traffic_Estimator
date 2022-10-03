@@ -10,9 +10,10 @@ struct Parameters {
     std::string mobilenet_config{"../models/mobilenet/ssd_mobilenet_v2_coco_2018_03_29.pbtxt"};
     std::string mobilenet_class{"../models/mobilenet/classes.txt"};
 
-    std::string data_path{"../media/dataset/road_1/1/"};
+    std::string data_path{"../media/capture/road_1/1/"};
     std::string svm_dataset{"../media/svm_dataset/dataset.txt"};
     std::string images[2] = {"img1.jpg", "img2.jpg"};
     bool evaluate = false;
     bool train = false;
+    bool capture = false;
 };

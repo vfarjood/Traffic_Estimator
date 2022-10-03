@@ -10,7 +10,7 @@ void capture(){
     if(!cap.isOpened()){
      std::cout << "Failed to connect to the camera." << std::endl;
     }
-    std::string path{"../media/capture/"};
+    std::string path{"../media/capture/road_1/1/"};
   for(int i=1; i <=2; i++){
     sleep(1);
     cv::Mat frame;

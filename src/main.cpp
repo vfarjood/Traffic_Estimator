@@ -61,9 +61,12 @@ int main(int argc, char** argv )
         return 0;
     }
     LOG_INFO("Main: Inferencing mode..");
+    
     // load input image list:
-    capture();
-    return 0;
+    if(param.capture){
+        capture();
+    }
+
     std::vector<std::string> input_files= {(param.data_path + param.images[0]),
                                            (param.data_path + param.images[1])};
     // keep all detected vehicles in a vector for both images:

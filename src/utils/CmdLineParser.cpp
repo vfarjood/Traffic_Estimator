@@ -7,6 +7,7 @@ CmdLineParser::CmdLineParser(int argc, char** argv)
         "{ input  i          | |      path to data location where you have input images                 }"
         "{ img1           |img1.jpg|  Image number 1 name (just name with extention)                    }"
         "{ img2           |img2.jpg|  Image number 2 name (just name with extention)                    }"
+        "{ capture  r       |false|    Captures two sequential images from camera                        }"
         "{ detector d       |yolo|    Model name [1:yolo, 2:mobilenet]                                  }"
         "{ evaluate e      |false|    Evaluate models with test set.                                    }"
         "{ train t         |false|    Train svm classifier model.                                       }"
@@ -42,6 +43,7 @@ Parameters CmdLineParser::getParameters(){
     Parameters param;
     param.evaluate = parser_->get<bool>("evaluate");
     param.train = parser_->get<bool>("train");
+    param.capture = parser_->get<bool>("capture");
     if(parser_->get<std::string>("detector") != "")
         param.model_name  = parser_->get<std::string>("detector");
     if(parser_->get<std::string>("model") != "")
