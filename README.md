@@ -57,7 +57,7 @@ Next, clone this repository in your local host:
 ```cpp
 git clone https://github.com/vfarjood/traffic_estimator.git
 ```
-After that, you may install the project using the script file:
+After that, you can install the project using the script file:
 ```cpp
 cd traffic_estimator
 cd scripts
@@ -89,7 +89,7 @@ Clone this repository in your local host:
 ```cpp
 git clone https://github.com/vfarjood/traffic_estimator.git
 ```
-After that, you may install the project using the script file:
+After that, you can install the project using the script file:
 ```cpp
 cd traffic_estimator
 cd scripts
@@ -102,6 +102,11 @@ An executable file will automatically be created in the same directory, scripts,
 ```cpp
 ./estimate
 ```
+To grab two sequential images from camera and apply the estimator, use *-r or --capture*:
+```cpp
+./estimate --capture=true
+```
+
 You can view all the possible arguments that you can use to modify the behavior of the program by passing *-h or —help*:
 ```cpp
 ./estimate -h
