@@ -30,6 +30,20 @@ Before installing the project, you should pay attention to the list of prerequis
 # Installation
 
 ### Requirements for the Z2 board:
+'Make' (buildsystem) and 'CMake' should already be installed (generator of buildsystems).
+```cpp
+cmake --version
+3.16.3
+```
+```cpp
+make --version
+4.2.1
+```
+Install it using the following if it hasn't already:
+```cpp
+sudo apt-get install cmake
+sudo apt-get install make
+```
 
 Make sure your Z2 board has all the required development libraries. If you don’t plan to use GTK+, ignore the first line from the next commands. Most of these libraries should be already installed if you are using a Z2 board or Raspberry Pi:
 ```cpp
@@ -51,7 +65,22 @@ cd scripts
 ```
 ### Requirements for MacOS or Linux
 
-The only prerequisite is that your machine already includes the OpenCV library installed. After that, you just need to install the project:
+'Make' (buildsystem) and 'CMake' should already be installed (generator of buildsystems).
+```cpp
+cmake --version
+3.16.3
+```
+```cpp
+make --version
+4.2.1
+```
+Install it using the following if it hasn't already:
+```cpp
+sudo apt-get install cmake
+sudo apt-get install make
+```
+
+Your machine should already includes the OpenCV library installed. After that, you just need to install the project:
 ```cpp
 % opencv_version
  -4.5.5
