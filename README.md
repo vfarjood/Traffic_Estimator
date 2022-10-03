@@ -30,7 +30,7 @@ Before installing the project, you should pay attention to the list of prerequis
 # Installation
 
 ### Requirements for the Z2 board:
-'Make' (buildsystem) and 'CMake' should already be installed (generator of buildsystems).
+'Make' (buildsystem) and 'CMake' (generator of buildsystems) should already be installed.
 ```cpp
 cmake --version
 3.16.3
@@ -65,7 +65,7 @@ cd scripts
 ```
 ### Requirements for MacOS or Linux
 
-'Make' (buildsystem) and 'CMake' should already be installed (generator of buildsystems).
+'Make' (buildsystem) and 'CMake' (generator of buildsystems) should already be installed.
 ```cpp
 cmake --version
 3.16.3
