@@ -3,7 +3,7 @@
 #include <opencv2/core/types.hpp>
 #include "../entity/Vehicle.hpp"
 #include "../utils/Lane.hpp"
-
+#include "opencv2/calib3d.hpp"
 class VehicleTracker {
 public:
 	void track(std::vector<std::vector<Centroid>>& vector_of_centeroids, 

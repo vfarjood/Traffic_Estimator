@@ -9,6 +9,7 @@ struct Result {
     float density = 0.0f;
     int prediction = 0;
 
+    float capturing_time = 0.0f;
     float detection_time = 0.0f;
     float tracking_time = 0.0f;
     float estimation_time = 0.0f;

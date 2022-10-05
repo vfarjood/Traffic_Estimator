@@ -61,6 +61,7 @@ void VehicleTracker::findVehiclesTrajectory(std::vector<Centroid> &existingVehic
         }
 
         if (least_distance < (image_size.height * 0.6)){
+
             const int fps = 1;
             const float speed_factor = (existingVehicles[least_distance_index].center.y / image_size.height) + 2;
             existingVehicles[least_distance_index].distance = least_distance;

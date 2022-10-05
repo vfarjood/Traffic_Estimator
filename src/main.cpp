@@ -62,11 +62,15 @@ int main(int argc, char** argv )
     }
     LOG_INFO("Main: Inferencing mode..");
     
-    // load input image list:
+    Result traffic;
+    Timer time;
+    time.start();
     if(param.capture){
         capture();
     }
+    traffic.capturing_time = time.stop();
 
+    // load input image list:
     std::vector<std::string> input_files= {(param.data_path + param.images[0]),
                                            (param.data_path + param.images[1])};
     // keep all detected vehicles in a vector for both images:
@@ -74,8 +78,6 @@ int main(int argc, char** argv )
     vector_of_vehicles.reserve(50);
 
     //Detect all the vehicles:
-    Result traffic;
-    Timer time;
     time.start();
     LOG_INFO("Main: Detecting vehicles:");
     if(param.model_name == "yolo"){
@@ -135,6 +137,7 @@ int main(int argc, char** argv )
     std::cout << "    -Highest flow is in lane number: "  << traffic.highest_lane_flow << "\n\n";
 
     std::cout << "Computation Time" << "\n";
+    std::cout << "    -Capturing     = " << std::fixed << std::setprecision(4)<< traffic.capturing_time << "s\n";
     std::cout << "    -Detection     = " << std::fixed << std::setprecision(4)<< traffic.detection_time << "s\n";
     std::cout << "    -Tracking      = " << std::fixed << std::setprecision(4)<< traffic.tracking_time << "s\n";
     std::cout << "    -Estimation    = " << std::fixed << std::setprecision(4)<< traffic.estimation_time << "s\n";
