@@ -20,7 +20,10 @@ void capture(){
       exit(0);
     }
     cv::imwrite((path + "img" + std::to_string(i) + ".jpg"), frame);
-    sleep(1);
+    
+    if(i == 1){
+      sleep(1);
+    }
 
   }
 }
