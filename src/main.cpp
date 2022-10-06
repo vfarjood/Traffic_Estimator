@@ -65,10 +65,13 @@ int main(int argc, char** argv )
     Result traffic;
     Timer time;
     time.start();
+    LOG_INFO("Main: Capturing two images:");
     if(param.capture){
         capture();
     }
     traffic.capturing_time = time.stop();
+    LOG_TRACE("Main: Capturing time: ", traffic.capturing_time );
+
 
     // load input image list:
     std::vector<std::string> input_files= {(param.data_path + param.images[0]),
