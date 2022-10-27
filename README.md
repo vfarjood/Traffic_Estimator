@@ -1,4 +1,4 @@
-![alt text](https://github.com/vfarjood/traffic_estimator/blob/main/doc/pipeline.jpeg?raw=true)
+![alt text](https://github.com/vfarjood/traffic_estimator/blob/main/doc/Architecture.jpeg?raw=true)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
