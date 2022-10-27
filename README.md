@@ -131,5 +131,5 @@ plese see more detail about the license at following address:
 - [license](https://github.com/vfarjood/traffic_estimator/blob/main/LICENSE.md)
 
 # Documentation
-There is a full report of my thesis in doc folder and you can find it at:
-- [report](https://github.com/vfarjood/traffic_estimator/tree/main/doc/Thesis_v3.pdf)
+There is a presentation file of my thesis in doc folder and you can find it at:
+- [presentation](https://github.com/vfarjood/traffic_estimator/tree/main/doc/presentation)
