@@ -132,4 +132,4 @@ plese see more detail about the license at following address:
 
 # Documentation
 There is a presentation file of my thesis in doc folder and you can find it at:
-- [presentation](https://github.com/vfarjood/traffic_estimator/tree/main/doc/presentation)
+- [presentation](https://github.com/vfarjood/traffic_estimator/tree/main/doc/presentation.pdf)
