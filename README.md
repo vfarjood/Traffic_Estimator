@@ -14,7 +14,7 @@
 
 # Introduction
 
-In this work, I aim to predict the traffic flow conditions in order to identify queues and potential bottlenecks. I intend to accomplish that by employing a full harvesting device (Z2 board), and I need to use sub-sampling of the traffic flow in order to achieve this goal because we cannot use an acquisition device that runs continuously (2 images 1 sec sampling rate). We agree that there are roughly three levels of traffic conditions. Even though a more precise classification could be the next goal for future work, this is sufficient.
+In this work, we aim to predict the trafUic Ulow conditions in order to identify queues and potential bottlenecks. We intend to accomplish that by employing a full harvesting device, and using sub-sampling of the trafUic Ulow to achieve this goal, because we cannot use an acquisition device that runs continuously. We presumed that there are generally three different trafUic levels, Low, Medium, High. Even though a more precise classiUication could be the next goal for future work.
 
 # Motivation
 
