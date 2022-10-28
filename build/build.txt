@@ -1,1 +1,0 @@
-Use install.sh in scripts direcotry to build the project.

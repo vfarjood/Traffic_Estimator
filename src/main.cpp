@@ -125,7 +125,7 @@ int main(int argc, char** argv )
     // Write to result file:
     time.start();
     FileUtils::save(param.data_path, tracked_vehicles, traffic);
-    // FileUtils::drawResultOnImage(input_files, lines, vector_of_vehicles, param.images, INPUT_WIDTH, INPUT_HEIGHT);
+    FileUtils::drawResultOnImage(input_files, lines, vector_of_vehicles, param.images, INPUT_WIDTH, INPUT_HEIGHT);
     traffic.saving_time = time.stop();
     LOG_TRACE("Main: Saved the result to: ", "'result/result.txt'" );
     LOG_TRACE("Main: Saving time: ", traffic.saving_time );
